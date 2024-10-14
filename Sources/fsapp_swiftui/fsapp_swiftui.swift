@@ -4,8 +4,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    let inputString: String
     var body: some View {
-        Text("Hello, world!!!!!")
+        Text(inputString)
             .padding(40)
             .background(Color.red)
     }
@@ -13,5 +14,5 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView()
+    ContentView(inputString: "Previews Work!!")
 }
