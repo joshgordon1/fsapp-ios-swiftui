@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TestingCustomView: View {
     let inputString: String
     var body: some View {
         Text(inputString)
@@ -14,5 +14,5 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView(inputString: "Previews Work!!")
+    TestingCustomView(inputString: "Previews Work!s!")
 }

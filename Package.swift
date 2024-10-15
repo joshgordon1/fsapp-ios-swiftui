@@ -4,22 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "fsapp_swiftui",
+    name: "fsappSwiftUI",
     platforms: [.iOS(.v16)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "fsapp_swiftui",
-            targets: ["fsapp_swiftui"]),
+            name: "fsappSwiftUI",
+            targets: ["fsappSwiftUI"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "fsapp_swiftui"),
+            name: "fsappSwiftUI"),
         .testTarget(
             name: "fsapp_swiftuiTests",
-            dependencies: ["fsapp_swiftui"]),
+            dependencies: ["fsappSwiftUI"]),
     ]
 )
 
